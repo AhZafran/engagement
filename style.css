@@ -1,0 +1,150 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;700&display=swap');
+body {
+font-family: "Poppins", sans-serif;
+
+margin: 0;
+padding: 0;
+background:linear-gradient(to bottom right, #FFC1CC,#ffe0e0 );
+color: #333;
+text-align: center;
+}
+
+.hero {
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 0;
+}
+
+.date, .venue {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.details, .rsvp {
+  padding: 40px 20px;
+}
+
+.details h3, .rsvp h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff4400;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #b34e4e;
+}
+
+footer {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.maps:hover {
+    transform: scale(1.1);
+
+}
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #333;
+    padding: 60px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents sideways scroll */
+    overflow-y: auto;
+    
+  }
+  
+  /* Hover zoom effect */
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  @keyframes gentleTilt {
+    0%   { transform: rotate(-5deg); }
+    50%  { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg); }
+  }
+  
+  
+  .flower1 {
+    position: absolute; /* or absolute, depending on your need */
+    top: -200px;;
+    right: 0px;
+    z-index: 1000; /* ensures it's on top of other elements */
+    opacity: 0.7;
+    animation: gentleTilt 2s infinite ease-in-out;
+    transform-origin: center;
+  }
+
+  .flower2 {
+    position: absolute; /* or absolute, depending on your need */
+    bottom: -200px;
+    left: -190px;
+    z-index: 1000; /* ensures it's on top of other elements */
+    opacity: 0.7;
+    animation: gentleTilt 2s infinite ease-in-out;
+    transform-origin: center;
+  
+  }
+
+  section {
+    margin-top: -60px;   /* Reduce vertical spacing */
+    margin-bottom: -30px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    html, body {
+      overflow-x: hidden;
+    }
+  
+    .flower1 {
+      position: absolute;  /* Make sure this is set in your main CSS if not already */
+      top: -310px;
+      right: 0px;
+    }
+  
+    .flower2 {
+      position: absolute;
+      bottom: -400px;
+      left: -180px;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+
+  
